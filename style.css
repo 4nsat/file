@@ -1,0 +1,180 @@
+@font-face {
+
+font-family: SF Pro Display; /* Имя шрифта */
+
+src: url(FontsFree-Net-SFProDisplay-Regular.ttf); /* Путь к файлу со шрифтом */
+
+}
+
+#backg {
+	position: absolute;
+}
+
+.circle {
+	position: relative;
+  	background: #3AB67D;
+  	opacity: 0.3;
+  	border-radius: 50%;
+  	height: 5em;
+  	width: 5em;
+}
+
+.circle#c1 {	
+  	top: 177px;
+  	left: 71px;
+}
+header {
+  	padding: 0.6em;
+}
+#name {
+  	color: #3AB67D;
+  	font-family: 'Fjalla One', sans-serif;
+  	font-size: 2em;
+  	float: left;
+}
+
+.wrapper {
+	display: inline-flex;
+	justify-content: center;
+	float: right;
+	margin-top: 0.5em;
+	margin-right: 5em;
+}
+.wrapper i {
+	margin-left: 1em;
+}
+.wrapper a {
+  color: #3AB67D;
+}
+
+.nav {
+	float: right;
+	margin-top: 0.4em;
+	margin-right: 1em;
+}
+
+.nav ul {
+	margin: 0;
+}
+.nav ul li{
+	display: inline;
+	padding-left: 2em;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #3AB67D;
+	font-family: SF Pro Display;
+}
+
+.reg_panel {
+	display: flex;
+	clear: both;
+	width: 57%;
+	margin: auto;
+	margin-top: 7em;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background: white;
+    border-radius: 1em;
+}
+
+.reg_panel .left {
+	float: left;
+	padding: 2em;
+}
+.reg_panel .right {
+	display: block;
+	width: 100%;
+	border-radius: 0 1em 1em 0em;
+	background: #3AB67D;
+	font-family: SF Pro Display;
+	padding: auto;
+	color: #fff;
+}
+
+.reg_panel #reg {
+	margin: 0;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: SF Pro Display;
+	color: #65617B;
+}
+.reg_panel #sign {
+	font-size: 0.8em;
+	color: #D2D1DC;
+	font-family: SF Pro Display;
+}
+
+.reg_panel #input{
+	margin-top: 1em;
+}
+.reg_panel #input input[type=text]{
+	margin-top: 1em;
+	font-family: SF Pro Display;
+	background: #FFFFFF;
+	padding: 1.2em;
+	width: 23em;
+	font-size: 0.8em;
+	border: 1px solid #D2D1DC;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+.reg_panel #input input[type=checkbox]{
+	margin-top: 1em;
+	margin-right: 1em;
+}
+
+.reg_panel #agree{
+	color: #65617B;
+	font-family: SF Pro Display;
+	font-size: 0.9em;
+}
+
+.reg_panel #buttons {
+	margin-top: 2em;
+}
+.reg_panel #buttons button:first-child{
+	color: #fff;
+	background: #3AB67D;
+	border: none;
+	border-radius: 0.3em;
+	padding: 1em 1.3em;
+	font-family: SF Pro Display;
+	font-size: 1em;
+    box-shadow: 0 0 10px rgba(58, 182, 125);
+}
+
+.reg_panel #buttons button:last-child{
+	color: #8A879D;
+	background: #F0F0F0;
+	border: none;
+	border-radius: 0.3em;
+	margin-left: 1em;
+	padding: 1em 3em;
+	font-family: SF Pro Display;
+	font-size: 1em;
+}
+
+
+
+.right #text ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	margin-top: 40%;
+	margin-left: 20%;
+}
+.right #text ul span{
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-left: 0.3em;
+}
+.right #text ul li{
+	margin-bottom: 1em;
+
+}
+.right #text ul li img{
+	filter: invert(1);
+	width: 30px;
+	vertical-align: middle;
+}
